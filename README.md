@@ -5,7 +5,7 @@ Amaç: `User` tablosu (**Id, Email, PasswordHash**), **Model Validation** ve **k
 
 ---
 
-## 🎯 Özellikler
+## Özellikler
 - EF Core **Code-First** ile `Users` tablosu
 - `[Required]`, `EmailAddress`, `MaxLength` doğrulamaları
 - **ASP.NET Core Identity PasswordHasher** ile **hash’li parola**
@@ -14,7 +14,7 @@ Amaç: `User` tablosu (**Id, Email, PasswordHash**), **Model Validation** ve **k
 
 ---
 
-## 🧱 Proje Yapısı
+## Proje Yapısı
 IdentityDataProtection/
 ├─ IdentityDataProtection.sln
 ├─ IdentityDataProtection.Data
@@ -36,14 +36,14 @@ IdentityDataProtection/
 
 ---
 
-## 🛠️ Gereksinimler
+## Gereksinimler
 - .NET SDK **8.0+**
 - SQL Server / LocalDB
 - Visual Studio 2022 veya VS Code
 
 ---
 
-## 📦 NuGet Paketleri
+## NuGet Paketleri
 
 **WebApi**
 - `Microsoft.EntityFrameworkCore.SqlServer`
@@ -68,7 +68,7 @@ IdentityDataProtection/
 
 ---
 
-## ⚙️ Konfigürasyon
+## Konfigürasyon
 
 **IdentityDataProtection.WebApi/appsettings.json**
 ```json
